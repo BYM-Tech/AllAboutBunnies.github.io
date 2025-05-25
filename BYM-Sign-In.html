@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google SSO</title>
+    <link rel="stylesheet" href="design1.css">
+
+    <!-- Google Sign-In SDK -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to BYM Tech SSO</h1>
+        </header>
+        <body><script src="login.js"></script></body>        <footer>
+            <p>Don't have an account? <a href="signup.html""">Sign up here</a></p>
+           <p> Want to sign in with Google?
+            <a href="https://accounts.google.com/o/oauth2/v2/auth?scope=openid%20profile%20email&access_type=offline&include_granted_scopes=true&redirect_uri=http://localhost:8000/oauth2callback&response_type=code&client_id=996312584899-nujucg7nhcieai06n4tmn8evbu7kue0v.apps.googleusercontent.com">
+                <img src="GoogleSignIn.png" alt="Sign in with Google" style="width: 240px; height: auto;">
+            </a>
+            <p>Want to return to All About Bunnies? <a href="index.html""">Return to All About Bunnies Website</a></p>
+        </footer>
+    </div>
+
+    <!-- External JavaScript file
+    <script src="login.js"></script> 
+</body>
+</html>
